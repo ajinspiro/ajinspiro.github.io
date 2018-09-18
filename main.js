@@ -443,7 +443,7 @@ var EssentialComponent = /** @class */ (function () {
         this.tkt = [0];
         this.initializeServices();
         this.initializeData();
-        //this.setDefaultStylesForIcons();
+        this.setDefaultStylesForIcons();
         this.DocStore = _docStore;
     }
     EssentialComponent.prototype.ngOnInit = function () {
